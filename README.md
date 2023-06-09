@@ -7,14 +7,9 @@ Neste projeto foi utilizado:
  <br>• Behave
  <br>• Pytest
 <br> <br>
-### Dependências necessárias para rodar os testes com behave e selenium: <br>
-`pip install selenium` <br>
-`pip install behave` <br>
+### Para instalar as dependencias, utilizar o comando: <br>
+`pip install -r requirements.txt` <br>
+<br>
 
-#### Para executar os testes, rode no terminal o comando `behave`.
-
-
-### Dependências necessárias para rodar os testes com pytest: <br>
-`pip install pytest` <br>
-
-#### Para executar os testes, rode no terminal o comando `pytest`.
+#### Para executar os testes com behave e selenium, rode no terminal o comando `behave`.
+#### Para executar os testescom pytest, rode no terminal o comando `pytest`.
