@@ -8,15 +8,15 @@ Feature: Gerenciar tarefas no TodoMVC
   Scenario: Adicionar várias tarefas
     Given que eu estou na página inicial
     When eu adiciono uma nova tarefa com o nome "Tarefa 1"
-    Then a tarefa "Tarefa 1" deve ser exibida na lista de tarefas
     When eu adiciono uma nova tarefa com o nome "Tarefa 2"
+    Then a tarefa "Tarefa 1" deve ser exibida na lista de tarefas
     Then a tarefa "Tarefa 2" deve ser exibida na lista de tarefas
 
   Scenario: Concluir uma tarefa
     Given que eu estou na página inicial
     When eu adiciono uma nova tarefa com o nome "Tarefa para concluir"
-    Then a tarefa "Tarefa para concluir" deve ser exibida na lista de tarefas
     When eu clico na tarefa "Tarefa para concluir"
+    Then a tarefa "Tarefa para concluir" deve ser exibida na lista de tarefas
     Then a tarefa "Tarefa para concluir" deve ser marcada como concluída
 
   Scenario: Filtrar tarefas ativas
