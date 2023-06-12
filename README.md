@@ -12,4 +12,4 @@ Neste projeto foi utilizado:
 <br>
 
 #### Para executar os testes com behave e selenium, rode no terminal o comando `behave`.
-#### Para executar os testescom pytest, rode no terminal o comando `pytest`.
+#### Para executar os testes com pytest, rode no terminal o comando `pytest`.
